@@ -1,17 +1,18 @@
 //
-//  CameraData.h
+//  ImageData.h
 //  instantWild
 //
-//  Created by James Sanford on 13/03/2013.
-//
+//  Created by James Sanford on 21/08/2012.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const cameraDataChangedNotificationName;
+extern NSString *const imageDataChangedNotificationName;
+extern NSString *const imageFavouriteStatusChangedNotificationName;
+extern NSString *const imageIdentStatusChangedNotificationName;
 
-@interface CameraData : NSObject
-{
+@interface ImageData : NSObject {
     NSMutableDictionary *data;
     BOOL isModel; // Whether this object is part of the central data model, and therefore the unique representative of this image's data. If not, it should not post notifications when altered.
 }

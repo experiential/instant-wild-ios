@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DefaultSHKConfigurator.h"
 
-@interface InstantWildSHKConfigurator : NSObject
+@interface InstantWildSHKConfigurator : DefaultSHKConfigurator
 
 @end
