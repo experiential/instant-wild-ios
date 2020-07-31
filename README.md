@@ -1,6 +1,6 @@
 # Instant Wild
 
-This is the original Instant Wild app code that I developed between 2011-2014 or so.
+This is the original Instant Wild iOS app code that I developed between 2011-2014 or so.
 
 There is a video [here](https://youtu.be/CmNCfBUZMNY) showing the app in action shortly before it was retired, though by this time a few bugs had appeared due to changes in iOS, and my employer could not afford to pay me to fix them! 
 
